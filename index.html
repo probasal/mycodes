@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-3.3.7/css/bootstrap.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Generate Table</h1>
+                <p>Contents ...</p>
+                <p>
+                    <a class="btn btn-primary btn-lg">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                      <input type="text" class="table-num">
+                      <!-- <button id="gentable">Get Table</button> -->
+                      <br>  
+                      <br>  
+                      <div class="alert alert-warning table-warning hidden">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <strong>Invalid!</strong> Please enter table number
+                      </div>
+                      <div class="panel panel-info hidden">
+                          <div class="panel-heading">
+                              <h3 class="panel-title table-no">Table of <span></span></h3>
+                          </div>
+                          <div class="panel-body">
+                               <div class="table-container"></div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/table-generator.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

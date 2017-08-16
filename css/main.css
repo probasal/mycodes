@@ -1,0 +1,58 @@
+.wraper{
+	width: 100%;
+	height: 450px;
+    /*background-color: #ffe76f;*/
+}
+
+.box{
+	width: 100px;
+	height: 50px;
+	background-color: orange;
+}
+
+#quiz-container{
+
+}
+
+.quiz-question-box{
+
+}
+
+.quiz-question{
+
+}
+
+.quiz-answers{
+
+}
+
+#quiz-buttons{
+
+}
+
+
+.quiz-prev-question{
+
+}
+
+.table-num{
+  
+}
+
+.progress {
+  height: 20px;
+  width: 100%;
+  background:#fff;
+  border:1px solid #666;
+  position: relative;
+}
+
+.progress-bar {
+  width:0px;
+  height: 20px;
+  color:#fff;
+  background:blue;
+}
+f;
+  background:blue;
+}
