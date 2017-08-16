@@ -1,7 +1,8 @@
 # Instruction
-CSS 
 
-<code>
+### CSS 
+
+```
   <input type="text" class="table-num">
   <div class="alert alert-warning table-warning hidden">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -15,4 +16,16 @@ CSS
              <div class="table-container"></div>
         </div>
     </div>
-</code>
+```
+
+### Js
+
+```javascript
+    $('.table-num').keyup(function(event) {	
+    		$(this).getTable({
+    			tableColor: 'red',
+    			tableFontSize: '14px',
+    			tableFontWight: 'normal'
+    		});
+    });
+```
